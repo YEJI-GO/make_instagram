@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 13px;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: grid;
+    width: 362px;
+    height: auto;
+    border: solid gray 1px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px gray solid;
+}
+.profile_photo{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border: 3px pink solid;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.info{
+    padding-left: 20px;
+}
+.profile_num{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    list-style: none;
+}
+.profile_num > li{
+    text-align: center;
+    margin-right: 28px;
+    font-weight: 1000;
+}
+.line_01{
+    border-bottom: rgb(180, 180, 180) solid 1px;
+    margin: 20px 0 0px 0;
+    padding: 0;
+}
+.profile_box{
+    position:absolute;
+    top: 105px;
+    left: 90px;
+}
+.profile_box > ul{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.profile_box > ul > li {
+    margin-left: 20px;
+}
+.profile_msg{
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 5px 60px 5px 60px;
+}
+.hightlight{
+    display: flex;
+}
+.hightlight_main{
+    margin: 8px 8px 0 8px;
+    width: 60px;
+    height: 60px;
+    border: 2px rgb(240, 72, 42) solid;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.line_02{
+    border-left: 1px solid rgb(180, 180, 180);
+}
+.hightlight_other{
+    display: flex;
+    width: 265px;
+    margin: 8px;
+}
+.hightlight_other > li{
+    justify-content: space-between;
+    list-style: none;
+    border: 2px rgb(236, 189, 88) solid;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.hightlight_other > li:first-child{
+    margin-left: 30px;
+}
+.line_03{
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+.icons > ul{
+    display: flex;
+    list-style: none;
+    width: auto;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(180, 180, 180) solid;
+}
+.icons > ul > li{
+    margin-right: 20px;
+}
+.main > table{
+    text-align: center;
+    margin: auto;
+}
